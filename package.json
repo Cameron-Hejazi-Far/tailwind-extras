@@ -1,14 +1,24 @@
 {
-  "name": "tailwind-extensions",
+  "name": "tailwind-extras",
   "version": "1.0.0",
-  "description": "",
+  "description": "Some extra functionality and components that build on top of the Tailwind library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becks7113/tailwind-extensions.git"
+  },
+  "keywords": [
+    "tailwind",
+    "components",
+    "utlities"
+  ],
+  "author": "Cameron Hejazi",
   "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^0.7.4"
-  }
+  "bugs": {
+    "url": "https://github.com/becks7113/tailwind-extensions/issues"
+  },
+  "homepage": "https://github.com/becks7113/tailwind-extensions#readme"
 }
