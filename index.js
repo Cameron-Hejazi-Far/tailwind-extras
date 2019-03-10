@@ -1,5 +1,5 @@
-module.exports = function () {
-    function({e, addUtilities}) {
+module.exports = function (options) {
+    return function ({ addUtilities, e }) {
         let percents = [
             {
                 key: '1/2',
@@ -78,5 +78,5 @@ module.exports = function () {
         addUtilities(heightUtilities, {
             variants: ['responsive'],
         });
-    }
-}
+    };
+};
