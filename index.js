@@ -61,10 +61,6 @@ module.exports = function (options) {
                 key: '9/10',
                 value: '90%'
             },
-            {
-                key: 'full',
-                value: '100%'
-            },
         ];
 
         const heightUtilities = percents.map(item => {
