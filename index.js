@@ -1,78 +1,34 @@
-module.exports = function (options) {
-    return function ({ addUtilities, e }) {
-        let percents = [
-            {
-                key: '1/2',
-                value: '50%'
-            },
-            {
-                key: '1/3',
-                value: '33.33333%'
-            },
-            {
-                key: '2/3',
-                value: '66.66667%'
-            },
-            {
-                key: '1/4',
-                value: '25%'
-            },
-            {
-                key: '3/4',
-                value: '75%'
-            },
-            {
-                key: '1/5',
-                value: '20%'
-            },
-            {
-                key: '2/5',
-                value: '40%'
-            },
-            {
-                key: '3/5',
-                value: '60%'
-            },
-            {
-                key: '4/5',
-                value: '80%'
-            },
-            {
-                key: '1/6',
-                value: '16.66667%'
-            },
-            {
-                key: '5/6',
-                value: '83.33333%'
-            },
-            {
-                key: '1/10',
-                value: '10%'
-            },
-            {
-                key: '3/10',
-                value: '30%'
-            },
-            {
-                key: '7/10',
-                value: '70%'
-            },
-            {
-                key: '9/10',
-                value: '90%'
-            },
-        ];
+module.exports = (args) => {
 
-        const heightUtilities = percents.map(item => {
-            return {
-                [`.h-${e(item.key)}`]: {
-                    height: item.value
-                }
-            }
-        });
+    // Fonts
+    require('./src/fonts/lato')(args);
 
-        addUtilities(heightUtilities, {
-            variants: ['responsive'],
-        });
-    };
+    // Animations
+    require('./src/animations/spinAround')(args);
+    require('./src/animations/fadeIn')(args);
+    require('./src/animations/fadeOut')(args);
+
+    // Variants
+    require('./src/variants/active')(args);
+    require('./src/variants/disabled')(args);
+    require('./src/variants/first-child')(args);
+    require('./src/variants/important')(args);
+    require('./src/variants/last-child')(args);
+
+    // Utilities
+    require('./src/utilities/blur')(args);
+
+    // Components
+    require('./src/components/button')(args);
+    require('./src/components/checkbox')(args);
+    require('./src/components/dropdown')(args);
+    require('./src/components/input')(args);
+    require('./src/components/list')(args);
+    require('./src/components/modal')(args);
+    require('./src/components/radio')(args);
+    require('./src/components/select')(args);
+    require('./src/components/table')(args);
+    require('./src/components/tabs')(args);
+    require('./src/components/tag')(args);
+
 };
