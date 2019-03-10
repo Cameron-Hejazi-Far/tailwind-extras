@@ -33,8 +33,14 @@ class TailwindExtras {
         this.addUtilities(fontsCss);
     }
 
-    param(key, defaultToConfig = '', defaultVal = '') {
-        // TODO: get param... if not available, then default to the config stuff
+    param(key, defaultToConfig = null, defaultVal = null) {
+        if (typeof(this._params) === 'object' && this._params.hasOwnProperty(key)) {
+            return this._params[key];
+        }
+        if (typeof(defaultToConfig) === 'string' && defaultToConfig.length > 0) {
+            return this.config(defaultToConfig, defaultVal);
+        }
+        return defaultVal;
     }
 
 };

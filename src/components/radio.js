@@ -7,6 +7,49 @@ module.exports = (tailwind) => {
 };
 
 /*
+.radio {
+  & input[type=radio] {
+    @apply absolute appearance-none outline-none select-none inline-block opacity-0 align-baseline m-0 no-underline;
+    & + label {
+      @apply relative block cursor-pointer align-middle text-grey-darkest pl-8;
+
+      &::before, &:before {
+        @apply absolute pin-l pin-t rounded-full border border-grey w-6 h-6 pointer-events-none;
+        content: "";
+      }
+    }
+    &:focus + label::before, &:focus + label:before {
+      @apply outline-none shadow-outline;
+    }
+    &:hover + label:not(:disabled)::before, &:hover + label:not(:disabled):before {
+      @apply border-grey-dark;
+    }
+    &:disabled + label, &.disabled + label {
+      @apply opacity-50 cursor-not-allowed pointer-events-none;
+    }
+    &:checked + label {
+      &::after, &:after {
+        @apply absolute inline-block rounded-full bg-blue pin-l pin-t pointer-events-none;
+        content: "";
+        -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .radio input[type=radio] {
   position: absolute;
   -webkit-appearance: none;
@@ -79,50 +122,6 @@ module.exports = (tailwind) => {
           transform: scale(.5);
   width: 1.5rem;
   height: 1.5rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-.radio {
-  & input[type=radio] {
-    @apply absolute appearance-none outline-none select-none inline-block opacity-0 align-baseline m-0 no-underline;
-    & + label {
-      @apply relative block cursor-pointer align-middle text-grey-darkest pl-8;
-
-      &::before, &:before {
-        @apply absolute pin-l pin-t rounded-full border border-grey w-6 h-6 pointer-events-none;
-        content: "";
-      }
-    }
-    &:focus + label::before, &:focus + label:before {
-      @apply outline-none shadow-outline;
-    }
-    &:hover + label:not(:disabled)::before, &:hover + label:not(:disabled):before {
-      @apply border-grey-dark;
-    }
-    &:disabled + label, &.disabled + label {
-      @apply opacity-50 cursor-not-allowed pointer-events-none;
-    }
-    &:checked + label {
-      &::after, &:after {
-        @apply absolute inline-block rounded-full bg-blue pin-l pin-t pointer-events-none;
-        content: "";
-        -webkit-transform: scale(.5);
-        -ms-transform: scale(.5);
-        transform: scale(.5);
-        width: 1.5rem;
-        height: 1.5rem;
-      }
-    }
-  }
 }
 
  */

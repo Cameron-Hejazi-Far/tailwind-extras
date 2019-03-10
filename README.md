@@ -15,6 +15,7 @@
         // ...
         require('tailwind-extras')({
           // see available options for configuration below
+          // TODO: need to add a bunch of configurable params, such as border color, text color, text size, etc. 
         }),
       ],
       // ...

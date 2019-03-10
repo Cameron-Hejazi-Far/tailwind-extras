@@ -7,6 +7,41 @@ module.exports = (tailwind) => {
 };
 
 /*
+.select {
+  @apply inline-block relative;
+  & select {
+    @apply block appearance-none w-full bg-white border border-grey px-4 py-2 pr-8 rounded shadow text-grey-darkest truncate leading-tight no-underline;
+    &:focus {
+      @apply outline-none shadow-outline;
+    }
+    &:hover:not(:disabled) {
+      @apply border-grey-dark;
+    }
+    &:disabled, &.disabled {
+      @apply opacity-50 cursor-not-allowed pointer-events-none;
+    }
+  }
+  &::after, &:after {
+    @apply absolute block border-l-2 border-b-2 border-blue rounded-sm w-2 h-2 pin-r mr-3 z-10 pointer-events-none;
+    content: " ";
+    top: 50%;
+    margin-top: -0.35rem;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+
+
+
+
+
+
+
 
 .select {
   display: inline-block;
@@ -75,41 +110,5 @@ module.exports = (tailwind) => {
   -webkit-transform-origin: center;
            transform-origin: center;
 }
-
-
-
-
-
-
-.select {
-  @apply inline-block relative;
-  & select {
-    @apply block appearance-none w-full bg-white border border-grey px-4 py-2 pr-8 rounded shadow text-grey-darkest truncate leading-tight no-underline;
-    &:focus {
-      @apply outline-none shadow-outline;
-    }
-    &:hover:not(:disabled) {
-      @apply border-grey-dark;
-    }
-    &:disabled, &.disabled {
-      @apply opacity-50 cursor-not-allowed pointer-events-none;
-    }
-  }
-  &::after, &:after {
-    @apply absolute block border-l-2 border-b-2 border-blue rounded-sm w-2 h-2 pin-r mr-3 z-10 pointer-events-none;
-    content: " ";
-    top: 50%;
-    margin-top: -0.35rem;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-  }
-}
-
-
-
 
  */

@@ -8,6 +8,43 @@ module.exports = (tailwind) => {
 
 /*
 .tabs {
+  @apply w-full flex justify-center items-center border-b border-grey;
+  & .tab {
+    @apply flex items-center justify-center px-4 py-2 leading-normal text-center cursor-pointer no-underline text-grey-darkest;
+    margin-bottom: -1px;
+    &:hover:not(:disabled), &:focus:not(:disabled) {
+      @apply text-blue;
+    }
+    &:active, &:focus {
+      @apply outline-none;
+    }
+    &:disabled, &.disabled {
+      @apply opacity-50 cursor-not-allowed pointer-events-none;
+    }
+    &:active {
+      @apply text-blue-dark;
+    }
+  }
+  & .tab.selected {
+    @apply text-blue rounded-t border-t border-l border-r border-grey bg-white;
+  }
+  & .tab .icon {
+    @apply block w-4 h-4 mr-2 -ml-1 pointer-events-none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tabs {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -71,42 +108,6 @@ module.exports = (tailwind) => {
   margin-right: .5rem;
   margin-left: -0.25rem;
   pointer-events: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-.tabs {
-  @apply w-full flex justify-center items-center border-b border-grey;
-  & .tab {
-    @apply flex items-center justify-center px-4 py-2 leading-normal text-center cursor-pointer no-underline text-grey-darkest;
-    margin-bottom: -1px;
-    &:hover:not(:disabled), &:focus:not(:disabled) {
-      @apply text-blue;
-    }
-    &:active, &:focus {
-      @apply outline-none;
-    }
-    &:disabled, &.disabled {
-      @apply opacity-50 cursor-not-allowed pointer-events-none;
-    }
-    &:active {
-      @apply text-blue-dark;
-    }
-  }
-  & .tab.selected {
-    @apply text-blue rounded-t border-t border-l border-r border-grey bg-white;
-  }
-  & .tab .icon {
-    @apply block w-4 h-4 mr-2 -ml-1 pointer-events-none;
-  }
 }
 
  */

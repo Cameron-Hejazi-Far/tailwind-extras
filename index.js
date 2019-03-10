@@ -1,6 +1,6 @@
 let TailwindExtras = require('./src/TailwindExtras');
 
-module.exports = (params) => {
+module.exports = (params = {}) => {
     return ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
 
         // Wrap all of the params in a class so we can easily pass it to the other modules

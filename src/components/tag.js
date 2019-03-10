@@ -8,6 +8,40 @@ module.exports = (tailwind) => {
 
 /*
 .tag {
+  @apply inline-flex items-center justify-center rounded-full px-3 py-1 text-center relative leading-tight text-sm bg-blue text-white no-underline;
+  & .icon {
+    @apply block w-4 h-4 mr-1 pointer-events-none;
+  }
+  &.tag-primary {
+    @apply bg-teal;
+  }
+  &.tag-link {
+    @apply bg-blue;
+  }
+  &.tag-info {
+    @apply bg-purple;
+  }
+  &.tag-success {
+    @apply bg-green;
+  }
+  &.tag-warning {
+    @apply bg-yellow text-yellow-darkest;
+  }
+  &.tag-danger {
+    @apply bg-red;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.tag {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -56,41 +90,6 @@ module.exports = (tailwind) => {
 
 .tag.tag-danger {
   background-color: #e3342f;
-}
-
-
-
-
-
-
-
-
-
-
-
-.tag {
-  @apply inline-flex items-center justify-center rounded-full px-3 py-1 text-center relative leading-tight text-sm bg-blue text-white no-underline;
-  & .icon {
-    @apply block w-4 h-4 mr-1 pointer-events-none;
-  }
-  &.tag-primary {
-    @apply bg-teal;
-  }
-  &.tag-link {
-    @apply bg-blue;
-  }
-  &.tag-info {
-    @apply bg-purple;
-  }
-  &.tag-success {
-    @apply bg-green;
-  }
-  &.tag-warning {
-    @apply bg-yellow text-yellow-darkest;
-  }
-  &.tag-danger {
-    @apply bg-red;
-  }
 }
 
  */
