@@ -8,9 +8,9 @@ function blurStyles(size) {
     };
 }
 
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addUtilities({
+    tailwind.addUtilities({
         '.blur-sm': blurStyles(1),
         '.blur': blurStyles(3),
         '.blur-lg': blurStyles(5),

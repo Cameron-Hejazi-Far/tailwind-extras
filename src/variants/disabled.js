@@ -1,6 +1,6 @@
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addVariant('disabled', ({modifySelectors, separator}) => {
+    tailwind.addVariant('disabled', ({modifySelectors, separator}) => {
         modifySelectors(({className}) => {
             return `.disabled${separator}${className}:disabled`
         })

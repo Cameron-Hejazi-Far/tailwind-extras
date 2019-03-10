@@ -1,7 +1,5 @@
-let { animation } = require('./_helpers');
+module.exports = (tailwind) => {
 
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
-
-    addUtilities(animation('fadeIn', {'opacity': '0'}, {'opacity': '1'}));
+    tailwind.addAnimation('fadeIn', {'opacity': '0'}, {'opacity': '1'});
 
 };

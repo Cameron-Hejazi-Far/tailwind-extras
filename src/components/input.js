@@ -1,6 +1,6 @@
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addComponents({
+    tailwind.addComponents({
         '.input': {
             'appearance': 'none',
             'background-color': '#ffffff',

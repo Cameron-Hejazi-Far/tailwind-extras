@@ -1,6 +1,6 @@
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addVariant('active', ({modifySelectors, separator}) => {
+    tailwind.addVariant('active', ({modifySelectors, separator}) => {
         modifySelectors(({className}) => {
             return `.active${separator}${className}:active`
         })

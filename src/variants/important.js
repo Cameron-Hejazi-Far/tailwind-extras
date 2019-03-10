@@ -1,6 +1,6 @@
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addVariant('important', ({container}) => {
+    tailwind.addVariant('important', ({container}) => {
         container.walkRules(rule => {
             rule.selector = `.\\!${rule.selector.slice(1)}`;
             rule.walkDecls(decl => {

@@ -1,6 +1,6 @@
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addVariant('last-child', ({modifySelectors, separator}) => {
+    tailwind.addVariant('last-child', ({modifySelectors, separator}) => {
         modifySelectors(({className}) => {
             return `.last-child${separator}${className}:last-child`
         })

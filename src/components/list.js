@@ -1,6 +1,6 @@
-module.exports = ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
+module.exports = (tailwind) => {
 
-    addComponents({
+    tailwind.addComponents({
         '.list': {
             'list-style': 'none',
             'padding': '0',

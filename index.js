@@ -1,34 +1,41 @@
-module.exports = (args) => {
+let TailwindExtras = require('./src/TailwindExtras');
 
-    // Fonts
-    require('./src/fonts/lato')(args);
+module.exports = (params) => {
+    return ({addUtilities, addComponents, addVariant, e, prefix, config}) => {
 
-    // Animations
-    require('./src/animations/spinAround')(args);
-    require('./src/animations/fadeIn')(args);
-    require('./src/animations/fadeOut')(args);
+        // Wrap all of the params in a class so we can easily pass it to the other modules
+        let tailwind = new TailwindExtras(addUtilities, addComponents, addVariant, e, prefix, config, params);
 
-    // Variants
-    require('./src/variants/active')(args);
-    require('./src/variants/disabled')(args);
-    require('./src/variants/first-child')(args);
-    require('./src/variants/important')(args);
-    require('./src/variants/last-child')(args);
+        // Fonts
+        require('./src/fonts/lato')(tailwind);
 
-    // Utilities
-    require('./src/utilities/blur')(args);
+        // Animations
+        require('./src/animations/spinAround')(tailwind);
+        require('./src/animations/fadeIn')(tailwind);
+        require('./src/animations/fadeOut')(tailwind);
 
-    // Components
-    require('./src/components/button')(args);
-    require('./src/components/checkbox')(args);
-    require('./src/components/dropdown')(args);
-    require('./src/components/input')(args);
-    require('./src/components/list')(args);
-    require('./src/components/modal')(args);
-    require('./src/components/radio')(args);
-    require('./src/components/select')(args);
-    require('./src/components/table')(args);
-    require('./src/components/tabs')(args);
-    require('./src/components/tag')(args);
+        // Variants
+        require('./src/variants/active')(tailwind);
+        require('./src/variants/disabled')(tailwind);
+        require('./src/variants/first-child')(tailwind);
+        require('./src/variants/important')(tailwind);
+        require('./src/variants/last-child')(tailwind);
 
+        // Utilities
+        require('./src/utilities/blur')(tailwind);
+
+        // Components
+        require('./src/components/button')(tailwind);
+        require('./src/components/checkbox')(tailwind);
+        require('./src/components/dropdown')(tailwind);
+        require('./src/components/input')(tailwind);
+        require('./src/components/list')(tailwind);
+        require('./src/components/modal')(tailwind);
+        require('./src/components/radio')(tailwind);
+        require('./src/components/select')(tailwind);
+        require('./src/components/table')(tailwind);
+        require('./src/components/tabs')(tailwind);
+        require('./src/components/tag')(tailwind);
+
+    };
 };
