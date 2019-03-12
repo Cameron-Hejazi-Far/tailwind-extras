@@ -4,17 +4,7 @@
     <list default="true" id="10290ff6-1835-4918-8e56-ae72d4f112b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TailwindExtras.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TailwindExtras.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/radio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/radio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,18 +84,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="11822" />
+          <entry key="js" value="13098" />
           <entry key="json" value="7" />
           <entry key="md" value="1163" />
-          <entry key="txt" value="293" />
+          <entry key="txt" value="371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="11837" />
+          <entry key="JavaScript" value="13113" />
           <entry key="Markdown" value="1148" />
-          <entry key="PLAIN_TEXT" value="293" />
+          <entry key="PLAIN_TEXT" value="371" />
         </counts>
       </usages-collector>
     </session>
@@ -115,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="291">
+              <caret line="213" column="64" lean-forward="true" selection-start-line="213" selection-start-column="64" selection-end-line="213" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -124,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+            <state relative-caret-position="1695">
+              <caret line="113" column="27" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -144,7 +134,6 @@
       <find>buttonColors</find>
       <find>bg</find>
       <find>::before</find>
-      <find>bg-</find>
       <find>active</find>
       <find>.default</find>
       <find>tailwind.</find>
@@ -152,13 +141,17 @@
       <find>::after</find>
       <find>grey-light'</find>
       <find>:focus</find>
-      <find>white</find>
-      <find>grey</find>
       <find>blue-dark</find>
       <find>blue-light</find>
       <find>blue-lighter</find>
       <find>focus</find>
+      <find>rounded</find>
+      <find>.border</find>
       <find>blue</find>
+      <find>bg-</find>
+      <find>grey</find>
+      <find>white</find>
+      <find>darker</find>
     </findStrings>
     <replaceStrings>
       <replace>\n'</replace>
@@ -208,13 +201,13 @@
         <option value="$PROJECT_DIR$/src/components/list.js" />
         <option value="$PROJECT_DIR$/src/components/radio.js" />
         <option value="$PROJECT_DIR$/src/components/select.js" />
-        <option value="$PROJECT_DIR$/src/TailwindExtras.js" />
         <option value="$PROJECT_DIR$/src/components/table.js" />
         <option value="$PROJECT_DIR$/src/components/tag.js" />
         <option value="$PROJECT_DIR$/src/components/dropdown.js" />
         <option value="$PROJECT_DIR$/src/components/input.js" />
-        <option value="$PROJECT_DIR$/src/components/modal.js" />
         <option value="$PROJECT_DIR$/src/components/tabs.js" />
+        <option value="$PROJECT_DIR$/src/components/modal.js" />
+        <option value="$PROJECT_DIR$/src/TailwindExtras.js" />
       </list>
     </option>
   </component>
@@ -344,7 +337,7 @@
       <workItem from="1552170474231" duration="2201000" />
       <workItem from="1552181517428" duration="16596000" />
       <workItem from="1552246940229" duration="7281000" />
-      <workItem from="1552345713810" duration="6628000" />
+      <workItem from="1552345713810" duration="10190000" />
     </task>
     <task id="LOCAL-00001" summary="Added some test utilities to the Tailwind library to be integrated via a plugin.">
       <created>1552181438658</created>
@@ -388,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552230078290</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented checkboxes, dropdowns, radios, selects, tables, tabs, and tags">
+      <created>1552359059331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552359059331</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32706000" />
+    <option name="totallyTimeSpent" value="36268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +444,8 @@
     <MESSAGE value="Modularized all of the tailwind parameters" />
     <MESSAGE value="Modularized all of the tailwind parameters into a helper class" />
     <MESSAGE value="Implemented buttons, inputs, and lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented buttons, inputs, and lists" />
+    <MESSAGE value="Implemented checkboxes, dropdowns, radios, selects, tables, tabs, and tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented checkboxes, dropdowns, radios, selects, tables, tabs, and tags" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -626,15 +627,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+        <state relative-caret-position="291">
+          <caret line="213" column="64" lean-forward="true" selection-start-line="213" selection-start-column="64" selection-end-line="213" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+        <state relative-caret-position="1695">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="27" />
         </state>
       </provider>
     </entry>

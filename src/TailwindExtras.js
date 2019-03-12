@@ -207,6 +207,24 @@ class TailwindExtras {
         });
     }
 
+    generateModalStyles() {
+        return this.param('modal', null, {
+            border: this.config('transparent', 'transparent'),
+            bg: this.config('colors.white', '#ffffff'),
+            text: this.config('colors.grey-darkest', '#3d4852'),
+            sectionDividers: this.config('colors.grey', '#b8c2cc'),
+            headerBg: this.config('colors.grey-lighter', '#f1f5f8'),
+            footerBg: this.config('colors.grey-lighter', '#f1f5f8'),
+            titleText: this.config('colors.grey-darkest', '#3d4852'),
+            closeBg: this.config('colors.grey', '#b8c2cc'),
+            closeBgHover: this.config('colors.grey-dark', '#8795a1'),
+            closeBgActive: this.config('colors.grey-darker', '#606f7b'),
+            closeX: this.config('colors.white', '#ffffff'),
+            closeXHover: this.config('colors.white', '#ffffff'),
+            closeXActive: this.config('colors.white', '#ffffff'),
+        });
+    }
+
     generateRadioStyles() {
         return this.param('radio', null, {
             bg: this.config('colors.white', '#ffffff'),
