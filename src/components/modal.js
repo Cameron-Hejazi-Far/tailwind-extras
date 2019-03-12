@@ -1,8 +1,146 @@
 module.exports = (tailwind) => {
 
-    // tailwind.addComponents({
-    // TODO: implement
-    // });
+    tailwind.addComponents({
+/*
+.modal {
+  @apply fixed overflow-hidden flex justify-center items-center pin-t pin-r pin-b pin-l z-40 invisible opacity-0 pointer-events-none;
+  -webkit-transition: visibility 0s linear 300ms, opacity 300ms linear;
+  transition: visibility 0s linear 300ms, opacity 300ms linear;
+
+  & .modal-overlay {
+    @apply absolute block pin-t pin-r pin-b pin-l z-10;
+  }
+
+  & .modal-content {
+    @apply my-0 mx-auto relative flex flex-col overflow-hidden w-full h-full bg-white z-20 opacity-0;
+    -ms-overflow-y: visible;
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-transition: transform 300ms linear, opacity 300ms linear;
+    transition: transform 300ms linear, opacity 300ms linear;
+  }
+
+  .modal-footer,
+  .modal-header {
+    @apply relative flex items-center flex-no-shrink justify-start p-5 bg-grey-lighter;
+  }
+  .modal-header {
+    @apply border-b border-grey rounded-t;
+    & .modal-close {
+      @apply relative align-top appearance-none bg-grey border-0 rounded-full cursor-pointer pointer-events-auto inline-block flex-no-grow flex-no-shrink w-6 h-6 outline-none;
+      font-size: 0;
+      height: 20px;
+      width: 20px;
+      max-height: 20px;
+      max-width: 20px;
+      min-height: 20px;
+      min-width: 20px;
+      &:hover, &:focus {
+        @apply bg-grey-dark;
+      }
+
+      &:active {
+        @apply bg-grey-darker;
+      }
+
+      &::before {
+        @apply absolute block bg-white;
+        content: "";
+        left: 50%;
+        top: 50%;
+        width: 50%;
+        height: 2px;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+      }
+
+      &::after {
+        @apply absolute block bg-white;
+        content: "";
+        left: 50%;
+        top: 50%;
+        width: 2px;
+        height: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+      }
+    }
+  }
+  .modal-footer {
+    @apply border-t border-grey rounded-b;
+  }
+  .modal-title {
+    @apply text-grey-darkest flex-grow flex-no-shrink text-lg leading-tight;
+  }
+  .modal-footer .button:not(:last-child) {
+    @apply mr-2;
+  }
+
+  .modal-body {
+    @apply flex-grow flex-shrink overflow-auto p-5 bg-white;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &.show {
+    @apply visible opacity-100 pointer-events-auto;
+    transition-delay: 0s;
+
+    & .modal-content {
+      @apply opacity-100;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+}
+
+@media screen and (min-width: 769px),
+print {
+  .modal {
+    &:not(.full-screen) .modal-overlay {
+      background-color: rgba(0, 0, 0, .75);
+    }
+    &:not(.full-screen) .modal-content {
+      @apply rounded;
+      max-height: calc(100vh - 20px);
+      width: 640px;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px),
+print {
+  .modal {
+    &.wider:not(.full-screen) .modal-content {
+      width: 890px;
+    }
+  }
+}
+
+@media screen and (min-width: 1216px),
+print {
+  .modal {
+    &.wider:not(.full-screen) .modal-content {
+      width: 1024px;
+    }
+  }
+}
+
+@media screen and (min-width: 1408px),
+print {
+  .modal {
+    &.wider:not(.full-screen) .modal-content {
+      width: 1280px;
+    }
+  }
+}
+ */
+    });
 
 };
 
@@ -49,7 +187,7 @@ module.exports = (tailwind) => {
         @apply bg-grey-darker;
       }
 
-      &::before, &:before {
+      &::before {
         @apply absolute block bg-white;
         content: "";
         left: 50%;
@@ -62,7 +200,7 @@ module.exports = (tailwind) => {
         transform-origin: center center;
       }
 
-      &::after, &:after {
+      &::after {
         @apply absolute block bg-white;
         content: "";
         left: 50%;
@@ -261,8 +399,7 @@ print {
   background-color: #606f7b;
 }
 
-.modal .modal-header .modal-close::before,
-.modal .modal-header .modal-close:before {
+.modal .modal-header .modal-close::before {
   position: absolute;
   display: block;
   background-color: #fff;

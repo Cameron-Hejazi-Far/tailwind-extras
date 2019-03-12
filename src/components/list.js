@@ -1,11 +1,15 @@
 module.exports = (tailwind) => {
 
+    let listStyles = tailwind.generateListStyles();
+
     tailwind.addComponents({
         '.list': {
             '@apply list-reset block': '',
 
             '& li': {
-                '@apply flex items-center justify-start relative px-3 py-2 border-grey border-b border-l border-r no-underline': '',
+                '@apply flex items-center justify-start relative px-3 py-2 border-b border-l border-r no-underline': '',
+                'background-color': listStyles.bg,
+                'border-color': listStyles.border,
 
                 '&:first-child': {
                     '@apply border-t rounded-t': '',
@@ -21,7 +25,8 @@ module.exports = (tailwind) => {
             },
 
             '&.hoverable li:hover': {
-                '@apply bg-blue-lightest': '',
+                'background-color': listStyles.bgHover,
+                'border-color': listStyles.borderHover,
             },
 
             '& li .icon': {

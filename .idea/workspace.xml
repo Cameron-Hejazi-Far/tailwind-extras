@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="10290ff6-1835-4918-8e56-ae72d4f112b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TailwindExtras.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TailwindExtras.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox.js" afterDir="false" />
@@ -70,14 +68,17 @@
     <session id="166903957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="important" value="1" />
-          <entry key="js" value="160" />
+          <entry key="js" value="254" />
           <entry key="json" value="1" />
           <entry key="md" value="5" />
           <entry key="tabs" value="1" />
@@ -86,25 +87,25 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="160" />
+          <entry key="JavaScript" value="254" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="6873" />
+          <entry key="js" value="11822" />
           <entry key="json" value="7" />
           <entry key="md" value="1163" />
-          <entry key="txt" value="238" />
+          <entry key="txt" value="293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="6888" />
+          <entry key="JavaScript" value="11837" />
           <entry key="Markdown" value="1148" />
-          <entry key="PLAIN_TEXT" value="238" />
+          <entry key="PLAIN_TEXT" value="293" />
         </counts>
       </usages-collector>
     </session>
@@ -112,28 +113,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
+        <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="197">
+              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/button.js">
+        <entry file="file://$PROJECT_DIR$/src/components/modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="105" column="105" selection-start-line="105" selection-start-column="99" selection-end-line="105" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="2100">
+              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -148,11 +140,32 @@
       <find>;</find>
       <find>d4852</find>
       <find>'@font-face': {</find>
+      <find>border-</find>
+      <find>buttonColors</find>
+      <find>bg</find>
+      <find>::before</find>
+      <find>bg-</find>
+      <find>active</find>
+      <find>.default</find>
+      <find>tailwind.</find>
+      <find>:hover</find>
+      <find>::after</find>
+      <find>grey-light'</find>
+      <find>:focus</find>
+      <find>white</find>
+      <find>grey</find>
+      <find>blue-dark</find>
+      <find>blue-light</find>
+      <find>blue-lighter</find>
+      <find>focus</find>
+      <find>blue</find>
     </findStrings>
     <replaceStrings>
       <replace>\n'</replace>
       <replace>': '</replace>
       <replace>',</replace>
+      <replace>buttonStyles</replace>
+      <replace>this.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -189,19 +202,19 @@
         <option value="$PROJECT_DIR$/src/animations/fadeOut.js" />
         <option value="$PROJECT_DIR$/src/animations/spinAround.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/components/dropdown.js" />
-        <option value="$PROJECT_DIR$/src/components/modal.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/src/components/button.js" />
+        <option value="$PROJECT_DIR$/src/components/checkbox.js" />
+        <option value="$PROJECT_DIR$/src/components/list.js" />
         <option value="$PROJECT_DIR$/src/components/radio.js" />
         <option value="$PROJECT_DIR$/src/components/select.js" />
-        <option value="$PROJECT_DIR$/src/components/table.js" />
-        <option value="$PROJECT_DIR$/src/components/tabs.js" />
-        <option value="$PROJECT_DIR$/src/components/tag.js" />
-        <option value="$PROJECT_DIR$/src/components/input.js" />
-        <option value="$PROJECT_DIR$/src/components/list.js" />
-        <option value="$PROJECT_DIR$/src/components/checkbox.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/TailwindExtras.js" />
-        <option value="$PROJECT_DIR$/src/components/button.js" />
+        <option value="$PROJECT_DIR$/src/components/table.js" />
+        <option value="$PROJECT_DIR$/src/components/tag.js" />
+        <option value="$PROJECT_DIR$/src/components/dropdown.js" />
+        <option value="$PROJECT_DIR$/src/components/input.js" />
+        <option value="$PROJECT_DIR$/src/components/modal.js" />
+        <option value="$PROJECT_DIR$/src/components/tabs.js" />
       </list>
     </option>
   </component>
@@ -220,7 +233,7 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1104" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -249,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,7 +303,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +342,9 @@
       <option name="presentableId" value="Default" />
       <updated>1552170472495</updated>
       <workItem from="1552170474231" duration="2201000" />
-      <workItem from="1552181517428" duration="16493000" />
+      <workItem from="1552181517428" duration="16596000" />
+      <workItem from="1552246940229" duration="7281000" />
+      <workItem from="1552345713810" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="Added some test utilities to the Tailwind library to be integrated via a plugin.">
       <created>1552181438658</created>
@@ -366,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552195089034</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented buttons, inputs, and lists">
+      <created>1552230078290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552230078290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18694000" />
+    <option name="totallyTimeSpent" value="32706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +407,7 @@
     <frame x="0" y="22" width="1920" height="1104" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12992546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17571884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -421,7 +443,8 @@
     <MESSAGE value="Added a bunch of animations, components, fonts, utilities, and variants" />
     <MESSAGE value="Modularized all of the tailwind parameters" />
     <MESSAGE value="Modularized all of the tailwind parameters into a helper class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modularized all of the tailwind parameters into a helper class" />
+    <MESSAGE value="Implemented buttons, inputs, and lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented buttons, inputs, and lists" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -438,40 +461,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="84" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="91" lean-forward="true" selection-start-column="91" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/blur.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animations.js" />
+    <entry file="file://$PROJECT_DIR$/src/utilities.js" />
+    <entry file="file://$PROJECT_DIR$/src/components.js" />
+    <entry file="file://$PROJECT_DIR$/src/variants.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/blur.js" />
+    <entry file="file://$PROJECT_DIR$/src/helpers.js" />
     <entry file="file://$PROJECT_DIR$/src/fonts/lato.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -552,94 +547,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dropdown.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="366" selection-start-line="366" selection-end-line="366" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/radio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/tag.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/checkbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="30">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="30">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
+    <entry file="file://$PROJECT_DIR$/src/components/radio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dropdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/tag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="105" column="105" selection-start-line="105" selection-start-column="99" selection-end-line="105" selection-end-column="105" />
+        <state relative-caret-position="717">
+          <caret line="80" selection-start-line="80" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
         </state>
       </provider>
     </entry>

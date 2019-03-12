@@ -1,5 +1,7 @@
 module.exports = (tailwind) => {
 
+    let checkboxStyles = tailwind.generateCheckboxStyles();
+
     tailwind.addComponents({
         '.checkbox': {
 
@@ -7,20 +9,23 @@ module.exports = (tailwind) => {
                 '@apply absolute appearance-none outline-none select-none inline-block opacity-0 align-baseline m-0 no-underline': '',
 
                 '& + label': {
-                    '@apply relative block cursor-pointer align-middle text-grey-darkest pl-8': '',
+                    '@apply relative block cursor-pointer align-middle pl-8': '',
 
-                    '&::before, &:before': {
-                        '@apply absolute pin-l pin-t rounded border border-grey w-6 h-6 pointer-events-none': '',
+                    '&::before': {
+                        '@apply absolute pin-l pin-t rounded border w-6 h-6 pointer-events-none': '',
+                        'background-color': checkboxStyles.bg,
+                        'border-color': checkboxStyles.border,
                         'content': '""',
                     },
                 },
 
-                '&:focus + label::before, &:focus + label:before': {
+                '&:focus + label::before': {
                     '@apply outline-none shadow-outline': '',
                 },
 
-                '&:hover + label:not(:disabled)::before, &:hover + label:not(:disabled):before': {
-                    '@apply border-grey-dark': '',
+                '&:hover + label:not(:disabled)::before': {
+                    'background-color': checkboxStyles.bgHover,
+                    'border-color': checkboxStyles.borderHover,
                 },
 
                 '&:disabled + label, &.disabled + label': {
@@ -29,8 +34,9 @@ module.exports = (tailwind) => {
 
                 '&:checked + label': {
 
-                    '&::after, &:after': {
-                        '@apply absolute inline-block border-r-2 border-b-2 border-blue pointer-events-none': '',
+                    '&::after': {
+                        '@apply absolute inline-block border-r-2 border-b-2 pointer-events-none': '',
+                        'border-color': checkboxStyles.indicator,
                         'content': '""',
                         'transform': 'rotate(45deg)',
                         'width': '0.375rem',
@@ -38,6 +44,10 @@ module.exports = (tailwind) => {
                         'top': '0.405rem',
                         'left': '0.6rem',
                     },
+                },
+
+                '&:checked:hover + label:not(:disabled)::after': {
+                    'border-color': checkboxStyles.indicatorHover,
                 },
             },
         },
