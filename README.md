@@ -378,6 +378,50 @@ for a `default` tag in your configuration.
     </tr>
 </table>
 
-Available button classes: `button-primary`, `button-link`, `button-info`, `button-success`, `button-warning`, `button-danger`.
+Available button classes: `button-primary`, `button-link`, `button-info`, `button-success`, `button-warning`, `button-danger`, and `loading`.
+
+### Checkbox
+
+```html
+<div class="checkbox">
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox">Checkbox</label>
+</div>
+```
+
+### Dropdown
+
+```html
+<div class="dropdown" id="myDropdown">
+    <button class="button" onclick="document.getElementById('myDropdown').classList.toggle('opened')">
+        Dropdown
+    </button>
+    <div class="dropdown-menu">
+        <button type="button" class="dropdown-item">Item 1</button>
+        <button type="button" class="dropdown-item">Item 2</button>
+        <button type="button" class="dropdown-item">Item 3</button>
+        <span class="dropdown-divider"></span>
+        <button type="button" class="dropdown-item">Item 4</button>
+        <button type="button" class="dropdown-item">Item 5</button>
+    </div>
+</div>
+```
+
+You should toggle the `opened` class on the dropdown element to open/close the dropdown menu.
+
+
+You can add the `dropup` class to your dropdown element to make the dropdown appear above the button.
+You can also add the `right-aligned` class to your dropdown to align the right side of the dropdown with
+the right side of the button. Example:
+
+```html
+<div class="dropdown dropup right-aligned" id="myDropdown">
+    <!-- ... -->
+</div>
+```
+
+### Input
+
+
 
 TODO: others
