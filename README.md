@@ -617,4 +617,4 @@ When using `tag`, the default tag styles will be used. If you want a non-standar
 will need to include both the `tag` class as well as the custom class that you want. For example, if
 you want a green success tag, you would use `class="tag tag-success"`.
 
-Available tag classes: `tag-primary`, `tag-link`, `tag-info`, `tag-success`, `tag-warning`, `tag-danger`.
+Available tag classes: `tag-primary`, `tag-link`, `tag-info`, `tag-success`, `tag-warning`, and `tag-danger`.
