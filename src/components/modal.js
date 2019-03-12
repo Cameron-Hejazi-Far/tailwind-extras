@@ -179,6 +179,22 @@ module.exports = (tailwind) => {
                 },
             },
         },
+
+        '@media screen and (min-width: 1920px), print': {
+            '.modal': {
+                '&.wider:not(.full-screen) .modal-content': {
+                    'width': '1552px',
+                },
+            },
+        },
+
+        '@media screen and (min-width: 2560px), print': {
+            '.modal': {
+                '&.wider:not(.full-screen) .modal-content': {
+                    'width': '1552px',
+                },
+            },
+        },
     });
 
 };

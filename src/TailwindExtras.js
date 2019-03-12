@@ -249,20 +249,6 @@ class TailwindExtras {
         });
     }
 
-    generateTabsStyles() {
-        return this.param('tabs', null, {
-            border: this.config('colors.grey', '#b8c2cc'),
-            bg: this.config('transparent', 'transparent'),
-            text: this.config('colors.grey-darkest', '#3d4852'),
-            bgHover: this.config('transparent', 'transparent'),
-            textHover: this.config('colors.blue', '#3490dc'),
-            bgActive: this.config('transparent', 'transparent'),
-            textActive: this.config('colors.blue-dark', '#2779bd'),
-            bgSelected: this.config('colors.white', '#ffffff'),
-            textSelected: this.config('colors.blue', '#3490dc'),
-        });
-    }
-
     generateTableStyles() {
         return this.param('table', null, {
             border: this.config('colors.grey', '#b8c2cc'),
@@ -274,6 +260,20 @@ class TailwindExtras {
             stripedText: this.config('colors.grey-darkest', '#3d4852'),
             stripedBgHover: this.config('colors.blue-lighter', '#bcdefa'),
             stripedTextHover: this.config('colors.grey-darkest', '#3d4852'),
+        });
+    }
+
+    generateTabsStyles() {
+        return this.param('tabs', null, {
+            border: this.config('colors.grey', '#b8c2cc'),
+            bg: this.config('transparent', 'transparent'),
+            text: this.config('colors.grey-darkest', '#3d4852'),
+            bgHover: this.config('transparent', 'transparent'),
+            textHover: this.config('colors.blue', '#3490dc'),
+            bgActive: this.config('transparent', 'transparent'),
+            textActive: this.config('colors.blue-dark', '#2779bd'),
+            bgSelected: this.config('colors.white', '#ffffff'),
+            textSelected: this.config('colors.blue', '#3490dc'),
         });
     }
 
