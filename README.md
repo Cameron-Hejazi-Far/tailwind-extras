@@ -336,27 +336,48 @@ for a `default` tag in your configuration.
 
 # Examples
 
-```html
-    <div>Buttons</div>
-    <button type="button" class="button flex mt-2">Default Button</button>
-    <button type="button" class="button button-primary flex mt-2">Primary Button</button>
-    <button type="button" class="button button-link flex mt-2" disabled>Disabled</button>
-    <button type="button" class="button button-info flex mt-2 loading">Loading</button>
-    <a href="#" class="button button-success flex mt-2">Anchor Button</a>
-    <button type="button" class="button button-warning flex mt-2">
-        <span class="icon">
-            <i class="far fa-trash-alt"></i>
-        </span>
-        <span>Warning Button</span>
-    </button>
-    <button type="button" class="button button-danger flex loading mt-2">
-        <span class="icon">
-            <i class="far fa-trash-alt"></i>
-        </span>
-        <span>Loading With Icon</span>
-    </button>
-```
+### Buttons
 
-![Button Example](examples/buttons.png)
+<table>
+    <tr>
+        <td>Default</td>
+        <td>
+            <pre lang="html">
+                &lt;button class="button"&gt;Default Button&lt;/button&gt;
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>Success</td>
+        <td>
+            <pre lang="html">
+                &lt;button class="button button-success"&gt;Success&lt;/button&gt;
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>With Icon</td>
+        <td>
+            <pre lang="html">
+                &lt;button type="button" class="button button-danger"&gt;
+                    &lt;span class="icon"&gt;
+                        &lt;i class="far fa-trash-alt"&gt;&lt;/i&gt;
+                    &lt;/span&gt;
+                    &lt;span&gt;Delete&lt;/span&gt;
+                &lt;/button&gt;
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>Loading</td>
+        <td>
+            <pre lang="html">
+                &lt;button class="button button-warning loading"&gt;Loading&lt;/button&gt;
+            </pre>
+        </td>
+    </tr>
+</table>
+
+Available button classes: `button-primary`, `button-link`, `button-info`, `button-success`, `button-warning`, `button-danger`.
 
 TODO: others
