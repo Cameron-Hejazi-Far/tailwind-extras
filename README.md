@@ -343,7 +343,7 @@ for a `default` tag in your configuration.
         <td>Default</td>
         <td>
             <pre lang="html">
-                &lt;button class="button"&gt;Default Button&lt;/button&gt;
+&lt;button class="button"&gt;Default Button&lt;/button&gt;
             </pre>
         </td>
     </tr>
@@ -351,7 +351,7 @@ for a `default` tag in your configuration.
         <td>Success</td>
         <td>
             <pre lang="html">
-                &lt;button class="button button-success"&gt;Success&lt;/button&gt;
+&lt;button class="button button-success"&gt;Success&lt;/button&gt;
             </pre>
         </td>
     </tr>
@@ -359,12 +359,12 @@ for a `default` tag in your configuration.
         <td>With Icon</td>
         <td>
             <pre lang="html">
-                &lt;button type="button" class="button button-danger"&gt;
-                    &lt;span class="icon"&gt;
-                        &lt;i class="far fa-trash-alt"&gt;&lt;/i&gt;
-                    &lt;/span&gt;
-                    &lt;span&gt;Delete&lt;/span&gt;
-                &lt;/button&gt;
+&lt;button type="button" class="button button-danger"&gt;
+    &lt;span class="icon"&gt;
+        &lt;i class="far fa-trash-alt"&gt;&lt;/i&gt;
+    &lt;/span&gt;
+    &lt;span&gt;Delete&lt;/span&gt;
+&lt;/button&gt;
             </pre>
         </td>
     </tr>
@@ -378,7 +378,13 @@ for a `default` tag in your configuration.
     </tr>
 </table>
 
-Available button classes: `button-primary`, `button-link`, `button-info`, `button-success`, `button-warning`, `button-danger`, and `loading`.
+When using `button`, the default button styles will be used. If you want a non-standard button, you
+will need to include both the `button` class as well as the custom class that you want. For example, if
+you want a green success button, you would use `class="button button-success"`.
+
+Available button classes: `button-primary`, `button-link`, `button-info`, `button-success`, `button-warning`, and `button-danger`.
+
+Applying the `loading` class to your button will hide the text and show a loding spinner in the button.
 
 ### Checkbox
 
@@ -409,19 +415,206 @@ Available button classes: `button-primary`, `button-link`, `button-info`, `butto
 
 You should toggle the `opened` class on the dropdown element to open/close the dropdown menu.
 
+You may use the button for the dropdown element the same as you would a regular button element.
 
 You can add the `dropup` class to your dropdown element to make the dropdown appear above the button.
 You can also add the `right-aligned` class to your dropdown to align the right side of the dropdown with
 the right side of the button. Example:
 
 ```html
-<div class="dropdown dropup right-aligned" id="myDropdown">
+<div class="dropdown opened dropup right-aligned" id="myDropdown">
     <!-- ... -->
 </div>
 ```
 
 ### Input
 
+<table>
+    <tr>
+        <td>Default</td>
+        <td>
+            <pre lang="html">
+&lt;input type="text" class="input" placeholder="Full name"&gt;
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>Loading</td>
+        <td>
+            <pre lang="html">
+&lt;div class="input-wrapper loading"&gt;
+    &lt;input type="text" class="input" value="Full name"&gt;
+&lt;/div&gt;
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>With Icon</td>
+        <td>
+            <pre lang="html">
+&lt;div class="input-wrapper"&gt;
+    &lt;span class="icon"&gt;
+        &lt;i class="fas fa-user"&gt;&lt;/i&gt;
+    &lt;/span&gt;
+    &lt;input type="text" class="input" placeholder="Full name"&gt;
+&lt;/div&gt;
+            </pre>
+        </td>
+    </tr>
+</table>
 
+### List
 
-TODO: others
+```html
+<ul class="list hoverable">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>
+        <span class="icon">
+            <i class="fas fa-check"></i>
+        </span>
+        <span>Item 4</span>
+    </li>
+    <li>Item 5</li>
+</ul>
+```
+
+Available classes to add to the list: `hoverable`.
+
+### Modal
+
+```html
+<div class="modal show">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="modal-title">Modal Header</div>
+            <button type="button" class="modal-close"></button>
+        </div>
+        <div class="modal-body">
+            <p>This is the modal body</p>
+            <p>This is another paragraph</p>
+            <p>This is yet another paragraph</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="button">Hide</button>
+        </div>
+    </div>
+</div>
+```
+
+NOTE: You can toggle the `show` class on the `modal` element to show/hide the modal.
+
+Available classes to add to the modal for additional styles: `wider` and `full-screen`.
+
+### Radio
+
+```html
+<div class="radio">
+    <input type="radio" id="myRadio">
+    <label for="myRadio">Radio Button</label>
+</div>
+```
+
+### Select
+
+```html
+<div class="select">
+    <select>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+    </select>
+</div>
+```
+
+### Table
+
+```html
+<table class="table hoverable">
+    <thead>
+    <tr>
+        <th>Header Cell 1</th>
+        <th>Header Cell 2</th>
+        <th>Header Cell 3</th>
+        <th>Header Cell 4</th>
+    </tr>
+    </thead>
+      <tfoot>
+      <tr>
+          <th>Footer Cell 1</th>
+          <td>Footer Cell 2</td>
+          <td>Footer Cell 3</td>
+          <td>Footer Cell 4</td>
+      </tr>
+      </tfoot>
+  <tbody>
+    <tr>
+        <td>Row 1 Cell 1</td>
+        <td>Row 1 Cell 2</td>
+        <td>Row 1 Cell 3</td>
+        <td>Row 1 Cell 4</td>
+    </tr>
+    <tr>
+        <td>Row 2 Cell 1</td>
+        <td>Row 2 Cell 2</td>
+        <td>Row 2 Cell 3</td>
+        <td>Row 2 Cell 4</td>
+    </tr>
+    </tbody>
+</table>
+```
+
+Available classes to add to a table for additional styles: `narrow`, `bordered`, `striped`, and `hoverable`.
+
+### Tabs
+
+```html
+<div class="tabs">
+    <button type="button" class="tab">Tab 1</button>
+    <button type="button" class="tab selected">Tab 2</button>
+    <button type="button" class="tab">Tab 3</button>
+    <button type="button" class="tab">Tab 4</button>
+    <button type="button" class="tab" disabled>
+        <span class="icon">
+            <i class="fas fa-envelope"></i>
+        </span>
+        <span>Tab 5</span>
+    </button>
+</div>
+```
+
+Use the `selected` class on your `tab` element to indicate which tab is currently selected.
+
+### Tag
+
+<table>
+    <tr>
+        <td>Default</td>
+        <td>
+            <pre>
+&lt;span class="tag tag-primary"&gt;My Tag&lt;/span&gt;
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>With Icon</td>
+        <td>
+            <pre>
+&lt;span class="tag tag-success"&gt;
+    &lt;span class="icon"&gt;
+        &lt;i class="fas fa-check"&gt;&lt;/i&gt;
+    &lt;/span&gt;
+    &lt;span&gt;Success&lt;/span&gt;
+&lt;/span&gt;
+            </pre>
+        </td>
+    </tr>
+</table>
+
+When using `tag`, the default tag styles will be used. If you want a non-standard tag, you
+will need to include both the `tag` class as well as the custom class that you want. For example, if
+you want a green success tag, you would use `class="tag tag-success"`.
+
+Available tag classes: `tag-primary`, `tag-link`, `tag-info`, `tag-success`, `tag-warning`, `tag-danger`.
