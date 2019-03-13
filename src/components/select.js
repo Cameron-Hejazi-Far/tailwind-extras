@@ -7,7 +7,7 @@ module.exports = (tailwind) => {
             '@apply inline-block relative': '',
 
             '& select': {
-                '@apply block appearance-none w-full border px-4 py-2 pr-8 rounded shadow truncate leading-tight no-underline': '',
+                ['@apply block appearance-none w-full border px-4 py-2 pr-8 rounded ' + (selectStyles.shadow ? 'shadow ' : '') + 'truncate leading-tight no-underline']: '',
                 'background-color': selectStyles.bg,
                 'border-color': selectStyles.border,
                 'color': selectStyles.text,

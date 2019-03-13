@@ -261,6 +261,7 @@ TODO:
 
 | Properties       | Type    |
 | ---------------- | ------- |
+| `shadow`         | Boolean |
 | `bg`             | Color   |
 | `border`         | Color   |
 | `text`           | Color   |
