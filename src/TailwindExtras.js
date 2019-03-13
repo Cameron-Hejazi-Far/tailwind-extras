@@ -186,6 +186,7 @@ class TailwindExtras {
 
     generateInputStyles() {
         return this.param('input', null, {
+            shadow: true,
             bg: this.config('colors.white', '#ffffff'),
             bgHover: this.config('colors.white', '#ffffff'),
             bgFocus: this.config('colors.white', '#ffffff'),

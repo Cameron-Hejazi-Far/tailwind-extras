@@ -4,7 +4,7 @@ module.exports = (tailwind) => {
 
     tailwind.addComponents({
         '.input': {
-            '@apply appearance-none rounded border px-3 py-2 shadow leading-tight no-underline': '',
+            ['@apply appearance-none rounded border px-3 py-2 ' + (inputStyles.shadow ? 'shadow ' : '') + 'leading-tight no-underline']: '',
             'background-color': inputStyles.bg,
             'border-color': inputStyles.border,
             'color': inputStyles.text,

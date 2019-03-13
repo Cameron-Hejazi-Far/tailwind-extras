@@ -112,10 +112,11 @@ extended in the configuration.
 
 | Property Type | Available Options                                  |
 | ------------- | -------------------------------------------------- |
-| Color         | A color from your config file, ie: `'colors.blue'` |
+| Color         | A color from your config file, ie: `colors.blue`   |
 |               | A CSS color, ie: `'#ffffff'` or `'rgb(0,0,0)'`     |
 |               | Transparent, ie: `'transparent'`                   |
 | Object        | A javascript object                                |
+| Boolean       | `true` or `false`                                  |
 
 
 ### Buttons
@@ -197,6 +198,7 @@ for a `default` button in your configuration.
 
 | Properties     | Type    |
 | -------------- | ------- |
+| `shadow`       | Boolean |
 | `bg`           | Color   |
 | `text`         | Color   |
 | `border`       | Color   |

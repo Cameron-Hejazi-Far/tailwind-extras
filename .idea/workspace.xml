@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10290ff6-1835-4918-8e56-ae72d4f112b4" name="Default Changelist" comment="" />
+    <list default="true" id="10290ff6-1835-4918-8e56-ae72d4f112b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TailwindExtras.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TailwindExtras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,51 +59,93 @@
     <session id="166903957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="html" value="1" />
           <entry key="important" value="1" />
-          <entry key="js" value="262" />
+          <entry key="js" value="264" />
           <entry key="json" value="1" />
-          <entry key="md" value="6" />
+          <entry key="md" value="7" />
           <entry key="tabs" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="262" />
-          <entry key="Markdown" value="6" />
+          <entry key="JavaScript" value="264" />
+          <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="13113" />
+          <entry key="js" value="13168" />
           <entry key="json" value="7" />
-          <entry key="md" value="6697" />
-          <entry key="txt" value="564" />
+          <entry key="md" value="6745" />
+          <entry key="txt" value="590" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="13146" />
-          <entry key="Markdown" value="6659" />
-          <entry key="PLAIN_TEXT" value="564" />
+          <entry key="JavaScript" value="13201" />
+          <entry key="Markdown" value="6707" />
+          <entry key="PLAIN_TEXT" value="590" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="555" column="7" selection-start-line="555" selection-start-column="7" selection-end-line="555" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/input.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="367">
+                <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -182,9 +229,10 @@
         <option value="$PROJECT_DIR$/src/components/table.js" />
         <option value="$PROJECT_DIR$/src/components/tag.js" />
         <option value="$PROJECT_DIR$/src/components/dropdown.js" />
-        <option value="$PROJECT_DIR$/src/components/input.js" />
         <option value="$PROJECT_DIR$/src/components/tabs.js" />
         <option value="$PROJECT_DIR$/src/components/modal.js" />
+        <option value="$PROJECT_DIR$/examples.html" />
+        <option value="$PROJECT_DIR$/src/components/input.js" />
         <option value="$PROJECT_DIR$/src/TailwindExtras.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -234,7 +282,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,6 +322,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,6 +366,8 @@
       <workItem from="1552181517428" duration="16596000" />
       <workItem from="1552246940229" duration="7281000" />
       <workItem from="1552345713810" duration="19691000" />
+      <workItem from="1552425599883" duration="37000" />
+      <workItem from="1552488306568" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="Added some test utilities to the Tailwind library to be integrated via a plugin.">
       <created>1552181438658</created>
@@ -424,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552425410413</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added an example.html file">
+      <created>1552425628076</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552425628076</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45769000" />
+    <option name="totallyTimeSpent" value="45963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,8 +498,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1104" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17571884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17891374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -485,7 +543,8 @@
     <MESSAGE value="Added example for Buttons in README.md" />
     <MESSAGE value="Added examples for Checkboxes and Dropdowns in README.md" />
     <MESSAGE value="Added examples for Dropdowns, Inputs, Lists, Modals, Radios, Selects, Tables, Tabs, and Tags in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples for Dropdowns, Inputs, Lists, Modals, Radios, Selects, Tables, Tabs, and Tags in README.md" />
+    <MESSAGE value="Added an example.html file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an example.html file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -606,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -655,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="39">
-            <caret line="566" column="3" lean-forward="true" selection-start-line="566" selection-start-column="3" selection-end-line="566" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -672,10 +714,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="555" column="7" selection-start-line="555" selection-start-column="7" selection-end-line="555" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="281" column="19" selection-start-line="281" selection-start-column="12" selection-end-line="281" selection-end-column="19" />
+        <state relative-caret-position="313">
+          <caret line="188" column="25" selection-start-line="188" selection-start-column="25" selection-end-line="188" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="367">
+            <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
