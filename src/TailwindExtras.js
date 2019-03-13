@@ -319,6 +319,13 @@ class TailwindExtras {
         });
     }
 
+    generateTooltipStyles() {
+        return this.param('tags', null, {
+            bg: 'rgba(0, 0, 0, .6)',
+            text: this.config('colors.white', '#ffffff'),
+        });
+    }
+
 }
 
 module.exports = TailwindExtras;

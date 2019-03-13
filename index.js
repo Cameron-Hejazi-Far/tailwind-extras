@@ -36,6 +36,7 @@ module.exports = (params = {}) => {
         require('./src/components/table')(tailwind);
         require('./src/components/tabs')(tailwind);
         require('./src/components/tag')(tailwind);
+        require('./src/components/tooltip')(tailwind);
 
     };
 };

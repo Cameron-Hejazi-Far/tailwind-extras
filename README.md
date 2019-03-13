@@ -337,6 +337,19 @@ for a `default` tag in your configuration.
 | `text`         | Color   |
 | `border`       | Color   |
 
+### Tooltip
+
+```javascript
+    tooltip: {
+        // ...
+    },
+```
+
+| Properties     | Type    |
+| -------------- | ------- |
+| `bg`           | Color   |
+| `text`         | Color   |
+
 # Examples
 
 ### Buttons
@@ -621,3 +634,29 @@ will need to include both the `tag` class as well as the custom class that you w
 you want a green success tag, you would use `class="tag tag-success"`.
 
 Available tag classes: `tag-primary`, `tag-link`, `tag-info`, `tag-success`, `tag-warning`, and `tag-danger`.
+
+### Tooltip
+
+```html
+<button tooltip="This is the tooltip text" tooltip-position="right">
+    Button With Tooltip
+</button>
+```
+
+Available tooltip positions: `tooltip-position="left"`, `tooltip-position="top"`, `tooltip-position="right"`, and `tooltip-position="bottom"`.
+
+NOTE: To increase the width of the tooltip, you can add this custom CSS to your project:
+
+```css
+[tooltip]::after {
+    min-width: 300px;
+}
+```
+
+To increase the width of the tooltip only for a given element, use this CSS:
+
+```css
+.my-custom-element[tooltip]::after {
+    min-width: 600px;
+}
+```
