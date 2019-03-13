@@ -239,6 +239,7 @@ class TailwindExtras {
 
     generateSelectStyles() {
         return this.param('select', null, {
+            shadow: true,
             bg: this.config('colors.white', '#ffffff'),
             border: this.config('colors.grey', '#b8c2cc'),
             text: this.config('colors.grey-darkest', '#3d4852'),
