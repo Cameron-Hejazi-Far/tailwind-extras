@@ -20,7 +20,7 @@ module.exports = (tailwind) => {
 
         // Webkit
         '.slider::-webkit-slider-runnable-track': {
-            '@apply w-full h-2 cursor-pointer rounded-full': '',
+            '@apply w-full h-2 cursor-pointer rounded-full z-0': '',
             'background-color': '1px solid ' + sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -36,7 +36,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-webkit-slider-thumb': {
-            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2': '',
+            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2 z-20': '',
             'background-color': '1px solid ' + sliderStyles.thumbBg,
             'border': '1px solid ' + sliderStyles.thumbBorder,
         },
@@ -54,7 +54,7 @@ module.exports = (tailwind) => {
 
         // Moz
         '.slider::-moz-range-track': {
-            '@apply w-full h-2 cursor-pointer rounded-full': '',
+            '@apply w-full h-2 cursor-pointer rounded-full z-0': '',
             'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -70,7 +70,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-moz-range-thumb': {
-            '@apply w-6 h-6 rounded bg-grey-lightest cursor-pointer': '',
+            '@apply w-6 h-6 rounded bg-grey-lightest cursor-pointer z-20': '',
             'background-color': sliderStyles.thumbBg,
             'border': '1px solid ' + sliderStyles.thumbBorder,
         },
@@ -86,12 +86,12 @@ module.exports = (tailwind) => {
         },
 
         // MS
-        '.slider::-ms-track': {
+        '.slider::-ms-track z-0': {
             '@apply w-full h-2 cursor-pointer bg-transparent rounded-full border-transparent text-transparent': '',
         },
 
         '.slider::-ms-fill-lower': {
-            '@apply rounded-full': '',
+            '@apply rounded-full z-10': '',
             'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -107,7 +107,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-ms-fill-upper': {
-            '@apply rounded-full': '',
+            '@apply rounded-full z-10': '',
             'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -123,7 +123,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-ms-thumb': {
-            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2': '',
+            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2 z-20': '',
             'background-color': sliderStyles.thumbBg,
             'border': '1px solid ' + sliderStyles.thumbBorder,
         },
