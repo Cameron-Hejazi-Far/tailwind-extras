@@ -30,7 +30,7 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.trackBorderHover,
         },
 
-        '.slider:focus::-webkit-slider-runnable-track': {
+        '.slider:focus:not(:active)::-webkit-slider-runnable-track': {
             'background-color': sliderStyles.trackBgFocus,
             'border': '1px solid ' + sliderStyles.trackBorderFocus,
         },
@@ -47,6 +47,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider:focus:not(:active)::-webkit-slider-thumb': {
+            '@apply outline-none shadow-outline': '',
             'background-color': sliderStyles.thumbBgFocus,
             'border': '1px solid ' + sliderStyles.thumbBorderFocus,
         },
@@ -69,7 +70,7 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.trackBorderHover,
         },
 
-        '.slider:focus::-moz-range-track': {
+        '.slider:focus:not(:active)::-moz-range-track': {
             'background-color': sliderStyles.trackBgFocus,
             'border': '1px solid ' + sliderStyles.trackBorderFocus,
         },
@@ -86,6 +87,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider:focus:not(:active)::-moz-range-thumb': {
+            '@apply outline-none shadow-outline': '',
             'background-color': sliderStyles.thumbBgFocus,
             'border': '1px solid ' + sliderStyles.thumbBorderFocus,
         },
@@ -111,7 +113,7 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.trackBorderHover,
         },
 
-        '.slider:focus::-ms-fill-lower': {
+        '.slider:focus:not(:active)::-ms-fill-lower': {
             'background-color': sliderStyles.trackBgFocus,
             'border': '1px solid ' + sliderStyles.trackBorderFocus,
         },
@@ -127,7 +129,7 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.trackBorderHover,
         },
 
-        '.slider:focus::-ms-fill-upper': {
+        '.slider:focus:not(:active)::-ms-fill-upper': {
             'background-color': sliderStyles.trackBgFocus,
             'border': '1px solid ' + sliderStyles.trackBorderFocus,
         },
@@ -144,6 +146,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider:focus:not(:active)::-ms-thumb': {
+            '@apply outline-none shadow-outline': '',
             'background-color': sliderStyles.thumbBgFocus,
             'border': '1px solid ' + sliderStyles.thumbBorderFocus,
         },
