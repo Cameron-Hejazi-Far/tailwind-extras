@@ -20,24 +20,24 @@ module.exports = (tailwind) => {
 
         // Webkit
         '.slider::-webkit-slider-runnable-track': {
-            '@apply w-full h-2 cursor-pointer rounded-full z-0': '',
-            'background-color': '1px solid ' + sliderStyles.trackBg,
+            '@apply w-full h-2 cursor-pointer rounded-full': '',
+            'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
 
         '.slider:hover::-webkit-slider-runnable-track': {
-            'background-color': '1px solid ' + sliderStyles.trackBgHover,
+            'background-color': sliderStyles.trackBgHover,
             'border': '1px solid ' + sliderStyles.trackBorderHover,
         },
 
         '.slider:focus::-webkit-slider-runnable-track': {
-            'background-color': '1px solid ' + sliderStyles.trackBgFocus,
+            'background-color': sliderStyles.trackBgFocus,
             'border': '1px solid ' + sliderStyles.trackBorderFocus,
         },
 
         '.slider::-webkit-slider-thumb': {
-            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2 z-20': '',
-            'background-color': '1px solid ' + sliderStyles.thumbBg,
+            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2': '',
+            'background-color': sliderStyles.thumbBg,
             'border': '1px solid ' + sliderStyles.thumbBorder,
         },
 
@@ -54,7 +54,7 @@ module.exports = (tailwind) => {
 
         // Moz
         '.slider::-moz-range-track': {
-            '@apply w-full h-2 cursor-pointer rounded-full z-0': '',
+            '@apply w-full h-2 cursor-pointer rounded-full': '',
             'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -70,7 +70,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-moz-range-thumb': {
-            '@apply w-6 h-6 rounded bg-grey-lightest cursor-pointer z-20': '',
+            '@apply w-6 h-6 rounded bg-grey-lightest cursor-pointer': '',
             'background-color': sliderStyles.thumbBg,
             'border': '1px solid ' + sliderStyles.thumbBorder,
         },
@@ -86,12 +86,12 @@ module.exports = (tailwind) => {
         },
 
         // MS
-        '.slider::-ms-track z-0': {
+        '.slider::-ms-track': {
             '@apply w-full h-2 cursor-pointer bg-transparent rounded-full border-transparent text-transparent': '',
         },
 
         '.slider::-ms-fill-lower': {
-            '@apply rounded-full z-10': '',
+            '@apply rounded-full': '',
             'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -107,7 +107,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-ms-fill-upper': {
-            '@apply rounded-full z-10': '',
+            '@apply rounded-full': '',
             'background-color': sliderStyles.trackBg,
             'border': '1px solid ' + sliderStyles.trackBorder,
         },
@@ -123,7 +123,7 @@ module.exports = (tailwind) => {
         },
 
         '.slider::-ms-thumb': {
-            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2 z-20': '',
+            '@apply appearance-none w-6 h-6 rounded cursor-pointer -mt-2': '',
             'background-color': sliderStyles.thumbBg,
             'border': '1px solid ' + sliderStyles.thumbBorder,
         },

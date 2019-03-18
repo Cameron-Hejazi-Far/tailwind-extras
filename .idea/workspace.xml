@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10290ff6-1835-4918-8e56-ae72d4f112b4" name="Default Changelist" comment="">
+    <list default="true" id="10290ff6-1835-4918-8e56-ae72d4f112b4" name="Default Changelist" comment="Fixed z-index of slider component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider.js" afterDir="false" />
     </list>
@@ -87,10 +87,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="125" />
-          <entry key="js" value="14574" />
+          <entry key="js" value="14577" />
           <entry key="json" value="7" />
           <entry key="md" value="7391" />
-          <entry key="txt" value="709" />
+          <entry key="txt" value="742" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -98,9 +98,9 @@
           <entry key="CSS" value="4" />
           <entry key="HTML" value="132" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="14607" />
+          <entry key="JavaScript" value="14610" />
           <entry key="Markdown" value="7347" />
-          <entry key="PLAIN_TEXT" value="709" />
+          <entry key="PLAIN_TEXT" value="742" />
         </counts>
       </usages-collector>
     </session>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -128,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4005">
-              <caret line="267" selection-start-line="255" selection-end-line="267" />
+            <state relative-caret-position="451">
+              <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
             </state>
           </provider>
         </entry>
@@ -168,8 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>border-</find>
-      <find>buttonColors</find>
       <find>bg</find>
       <find>::before</find>
       <find>active</find>
@@ -198,6 +196,8 @@
       <find>grey-lightest</find>
       <find>input[type=range]</find>
       <find>disabled</find>
+      <find>opacity</find>
+      <find>'background-color': '1px solid ' +</find>
     </findStrings>
     <replaceStrings>
       <replace>\n'</replace>
@@ -207,6 +207,7 @@
       <replace>this.</replace>
       <replace>0</replace>
       <replace>.slider</replace>
+      <replace>'background-color':</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/variants</dir>
@@ -400,7 +401,7 @@
       <workItem from="1552425599883" duration="37000" />
       <workItem from="1552488306568" duration="3872000" />
       <workItem from="1552945118798" duration="1520000" />
-      <workItem from="1552946797512" duration="58000" />
+      <workItem from="1552946797512" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="Added some test utilities to the Tailwind library to be integrated via a plugin.">
       <created>1552181438658</created>
@@ -549,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552946574183</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fixed z-index of slider component">
+      <created>1552946868934</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1552946868934</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51256000" />
+    <option name="totallyTimeSpent" value="51838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +588,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" auto_hide="true" id="TODO" order="6" weight="0.32962587" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32962587" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962587" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" auto_hide="true" id="Terminal" order="11" weight="0.32962587" />
@@ -642,7 +650,8 @@
     <MESSAGE value="Added optional shadow config property to selects" />
     <MESSAGE value="Added tooltip component" />
     <MESSAGE value="Added slider component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added slider component" />
+    <MESSAGE value="Fixed z-index of slider component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed z-index of slider component" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -819,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4005">
-          <caret line="267" selection-start-line="255" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/tooltip.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -850,10 +852,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TailwindExtras.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
