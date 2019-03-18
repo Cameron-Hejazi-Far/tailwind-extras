@@ -251,6 +251,23 @@ class TailwindExtras {
         });
     }
 
+    generateSliderStyles() {
+        return this.param('slider', null, {
+            thumbBg: this.config('colors.grey-lightest', '#f8fafc'),
+            thumbBorder: this.config('colors.grey', '#b8c2cc'),
+            thumbBgHover: this.config('colors.grey-lightest', '#f8fafc'),
+            thumbBorderHover: this.config('colors.grey-dark', '#8795a1'),
+            thumbBgFocus: this.config('colors.grey-lightest', '#f8fafc'),
+            thumbBorderFocus: this.config('colors.grey-dark', '#8795a1'),
+            trackBg: this.config('colors.grey-lighter', '#f1f5f8'),
+            trackBorder: this.config('colors.grey', '#b8c2cc'),
+            trackBgHover: this.config('colors.grey-lighter', '#f1f5f8'),
+            trackBorderHover: this.config('colors.grey', '#b8c2cc'),
+            trackBgFocus: this.config('colors.grey-lighter', '#f1f5f8'),
+            trackBorderFocus: this.config('colors.grey', '#b8c2cc'),
+        });
+    }
+
     generateTableStyles() {
         return this.param('table', null, {
             border: this.config('colors.grey', '#b8c2cc'),

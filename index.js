@@ -33,6 +33,7 @@ module.exports = (params = {}) => {
         require('./src/components/modal')(tailwind);
         require('./src/components/radio')(tailwind);
         require('./src/components/select')(tailwind);
+        require('./src/components/slider')(tailwind);
         require('./src/components/table')(tailwind);
         require('./src/components/tabs')(tailwind);
         require('./src/components/tag')(tailwind);

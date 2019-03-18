@@ -271,6 +271,29 @@ TODO:
 | `textHover`      | Color   |
 | `indicatorHover` | Color   |
 
+### Slider
+
+```javascript
+    slider: {
+        // ...
+    },
+```
+
+| Properties         | Type    |
+| ------------------ | ------- |
+| `thumbBg`          | Color   |
+| `thumbBorder`      | Color   |
+| `thumbBgHover`     | Color   |
+| `thumbBorderHover` | Color   |
+| `thumbBgFocus`     | Color   |
+| `thumbBorderFocus` | Color   |
+| `trackBg`          | Color   |
+| `trackBorder`      | Color   |
+| `trackBgHover`     | Color   |
+| `trackBorderHover` | Color   |
+| `trackBgFocus`     | Color   |
+| `trackBorderFocus` | Color   |
+
 ### Table
 
 ```javascript
@@ -543,6 +566,12 @@ Available classes to add to the modal for additional styles: `wider` and `full-s
         <option>Option 3</option>
     </select>
 </div>
+```
+
+### Slider
+
+```html
+<input type="range" class="slider">
 ```
 
 ### Table
