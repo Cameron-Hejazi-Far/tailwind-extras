@@ -259,6 +259,8 @@ class TailwindExtras {
             thumbBorderHover: this.config('colors.grey-dark', '#8795a1'),
             thumbBgFocus: this.config('colors.grey-lightest', '#f8fafc'),
             thumbBorderFocus: this.config('colors.grey-dark', '#8795a1'),
+            thumbBgActive: this.config('colors.grey-lighter', '#f1f5f8'),
+            thumbBorderActive: this.config('colors.grey-dark', '#8795a1'),
             trackBg: this.config('colors.grey-lighter', '#f1f5f8'),
             trackBorder: this.config('colors.grey', '#b8c2cc'),
             trackBgHover: this.config('colors.grey-lighter', '#f1f5f8'),

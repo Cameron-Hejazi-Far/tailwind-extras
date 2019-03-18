@@ -46,9 +46,14 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.thumbBorderHover,
         },
 
-        '.slider:focus::-webkit-slider-thumb': {
+        '.slider:focus:not(:active)::-webkit-slider-thumb': {
             'background-color': sliderStyles.thumbBgFocus,
             'border': '1px solid ' + sliderStyles.thumbBorderFocus,
+        },
+
+        '.slider:active::-webkit-slider-thumb': {
+            'background-color': sliderStyles.thumbBgActive,
+            'border': '1px solid ' + sliderStyles.thumbBorderActive,
         },
 
 
@@ -80,9 +85,14 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.thumbBorderHover,
         },
 
-        '.slider:focus::-moz-range-thumb': {
+        '.slider:focus:not(:active)::-moz-range-thumb': {
             'background-color': sliderStyles.thumbBgFocus,
             'border': '1px solid ' + sliderStyles.thumbBorderFocus,
+        },
+
+        '.slider:active::-moz-range-thumb': {
+            'background-color': sliderStyles.thumbBgActive,
+            'border': '1px solid ' + sliderStyles.thumbBorderActive,
         },
 
         // MS
@@ -133,9 +143,14 @@ module.exports = (tailwind) => {
             'border': '1px solid ' + sliderStyles.thumbBorderHover,
         },
 
-        '.slider:focus::-ms-thumb': {
+        '.slider:focus:not(:active)::-ms-thumb': {
             'background-color': sliderStyles.thumbBgFocus,
             'border': '1px solid ' + sliderStyles.thumbBorderFocus,
+        },
+
+        '.slider:active::-ms-thumb': {
+            'background-color': sliderStyles.thumbBgActive,
+            'border': '1px solid ' + sliderStyles.thumbBorderActive,
         },
     });
 

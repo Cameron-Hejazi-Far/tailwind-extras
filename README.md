@@ -279,20 +279,22 @@ TODO:
     },
 ```
 
-| Properties         | Type    |
-| ------------------ | ------- |
-| `thumbBg`          | Color   |
-| `thumbBorder`      | Color   |
-| `thumbBgHover`     | Color   |
-| `thumbBorderHover` | Color   |
-| `thumbBgFocus`     | Color   |
-| `thumbBorderFocus` | Color   |
-| `trackBg`          | Color   |
-| `trackBorder`      | Color   |
-| `trackBgHover`     | Color   |
-| `trackBorderHover` | Color   |
-| `trackBgFocus`     | Color   |
-| `trackBorderFocus` | Color   |
+| Properties          | Type    |
+| ------------------- | ------- |
+| `thumbBg`           | Color   |
+| `thumbBorder`       | Color   |
+| `thumbBgHover`      | Color   |
+| `thumbBorderHover`  | Color   |
+| `thumbBgFocus`      | Color   |
+| `thumbBorderFocus`  | Color   |
+| `thumbBgActive`     | Color   |
+| `thumbBorderActive` | Color   |
+| `trackBg`           | Color   |
+| `trackBorder`       | Color   |
+| `trackBgHover`      | Color   |
+| `trackBorderHover`  | Color   |
+| `trackBgFocus`      | Color   |
+| `trackBorderFocus`  | Color   |
 
 ### Table
 
