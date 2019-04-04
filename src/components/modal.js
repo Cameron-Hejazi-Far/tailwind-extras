@@ -153,6 +153,9 @@ module.exports = (tailwind) => {
                 '&.wider:not(.full-screen) .modal-content': {
                     'width': '890px',
                 },
+                '&.widest:not(.full-screen) .modal-content': {
+                    'width': '890px',
+                },
             },
         },
 
@@ -161,12 +164,15 @@ module.exports = (tailwind) => {
                 '&.wider:not(.full-screen) .modal-content': {
                     'width': '1024px',
                 },
+                '&.widest:not(.full-screen) .modal-content': {
+                    'width': '1024px',
+                },
             },
         },
 
         '@media screen and (min-width: 1408px), print': {
             '.modal': {
-                '&.wider:not(.full-screen) .modal-content': {
+                '&.widest:not(.full-screen) .modal-content': {
                     'width': '1280px',
                 },
             },
@@ -174,23 +180,7 @@ module.exports = (tailwind) => {
 
         '@media screen and (min-width: 1680px), print': {
             '.modal': {
-                '&.wider:not(.full-screen) .modal-content': {
-                    'width': '1552px',
-                },
-            },
-        },
-
-        '@media screen and (min-width: 1920px), print': {
-            '.modal': {
-                '&.wider:not(.full-screen) .modal-content': {
-                    'width': '1552px',
-                },
-            },
-        },
-
-        '@media screen and (min-width: 2560px), print': {
-            '.modal': {
-                '&.wider:not(.full-screen) .modal-content': {
+                '&.widest:not(.full-screen) .modal-content': {
                     'width': '1552px',
                 },
             },
