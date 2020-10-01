@@ -1,5 +1,5 @@
 {
-  "name": "cameronhejazifar/tailwind-extras",
+  "name": "tailwind-extras",
   "version": "1.0.0",
   "description": "Some extra functionality and components that build on top of the Tailwind library.",
   "main": "index.js",
@@ -13,15 +13,12 @@
   "keywords": [
     "tailwind",
     "components",
-    "utlities"
+    "utilities"
   ],
-  "author": "Cameron Hejazi-Far",
+  "author": "Cameron Hejazi-Far <cameron@hejazi-far.com> (https://cameron.hejazi-far.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cameronhejazifar/tailwind-extras/issues"
   },
-  "homepage": "https://github.com/cameronhejazifar/tailwind-extras#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "homepage": "https://github.com/cameronhejazifar/tailwind-extras#readme"
 }
