@@ -1,5 +1,5 @@
 {
-  "name": "cameronhejazifar/tailwind-extras",
+  "name": "tailwind-extras",
   "version": "1.0.0",
   "description": "Some extra functionality and components that build on top of the Tailwind library.",
   "main": "index.js",
