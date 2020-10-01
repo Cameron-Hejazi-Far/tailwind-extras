@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-extras",
+  "name": "cameronhejazifar/tailwind-extras",
   "version": "1.0.0",
   "description": "Some extra functionality and components that build on top of the Tailwind library.",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cameronhejazifar/tailwind-extras/issues"
   },
-  "homepage": "https://github.com/cameronhejazifar/tailwind-extras#readme"
+  "homepage": "https://github.com/cameronhejazifar/tailwind-extras#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
