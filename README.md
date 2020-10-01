@@ -4,7 +4,7 @@
 
 2. Install this `tailwind-extras` plugin using npm:
     ```sh
-    npm install becks7113/tailwind-extras --save-dev
+    npm install @cameronhejazifar/tailwind-extras --save-dev
     ```
 
 3. Add the `tailwind-extras` plugin to your Tailwind config file (usually named `tailwind.js` or `tailwind.config.js`):
