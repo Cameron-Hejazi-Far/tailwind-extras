@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/becks7113/tailwind-extras.git"
+    "url": "git+https://github.com/Cameron-Hejazi-Far/tailwind-extras.git"
   },
   "keywords": [
     "tailwind",
@@ -18,7 +18,7 @@
   "author": "Cameron Hejazi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/becks7113/tailwind-extras/issues"
+    "url": "https://github.com/Cameron-Hejazi-Far/tailwind-extras/issues"
   },
-  "homepage": "https://github.com/becks7113/tailwind-extras#readme"
+  "homepage": "https://github.com/Cameron-Hejazi-Far/tailwind-extras#readme"
 }
