@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cameronhejazifar/tailwind-extras/issues"
   },
-  "homepage": "https://github.com/cameronhejazifar/tailwind-extras#readme"
+  "homepage": "https://github.com/cameronhejazifar/tailwind-extras#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
